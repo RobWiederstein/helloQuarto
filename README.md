@@ -6,6 +6,4 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of helloQuarto is to …
-
-<https://robwiederstein.github.io/helloQuarto/site>
+The goal of helloQuarto is to do good.
