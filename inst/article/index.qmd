@@ -1,0 +1,57 @@
+---
+title: "Time Series"
+author: "Rob Wiederstein"
+format:
+  html: 
+    toc: true
+    toc-title: Contents
+    toc-depth: 2
+    toc-location: left
+    number-sections: true
+    code-line-numbers: true
+    code-fold: true
+highlight-style: github
+bibliography: references.bib
+csl: ieee-access.csl
+---
+
+```{r}
+#| label: declare-directory
+#| include: false
+library(helloQuarto)
+```
+
+# Lorem
+
+## Lorem 
+
+ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.[@bengtssonPerspectivesMortalityForecasting2003]
+
+```{r}
+#| label: decadata
+helloQuarto::decadata
+```
+
+```{r}
+#| label: paste-rob
+helloQuarto::print_rob(a = "Send", b = "home!")
+```
+
+
+# Duis 
+
+## aute 
+
+irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.[@rob2018forecasting]
+
+# Plot
+
+```{r}
+#| label: mtcars
+library(ggplot2)
+mtcars |>
+ggplot() +
+aes(mpg, hp, color = factor(cyl)) + 
+geom_point()
+
+```
