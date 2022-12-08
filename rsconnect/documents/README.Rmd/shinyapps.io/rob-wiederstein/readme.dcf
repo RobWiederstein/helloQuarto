@@ -1,0 +1,14 @@
+name: readme
+title:
+username:
+account: rob-wiederstein
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7844478
+bundleId: 6608622
+url: https://rob-wiederstein.shinyapps.io/readme/
+when: 1670472075.3581
+lastSyncTime: 1670472075.35811
+quarto_version: 1.2.269
+quarto_engines: knitr
+serverRender: FALSE

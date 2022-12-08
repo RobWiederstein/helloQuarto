@@ -18,12 +18,12 @@ csl: ieee-access.csl
 ```{r}
 #| label: declare-directory
 #| include: false
-library(helloQuarto)
+devtools::install_github("robwiederstein/helloQuarto")
 ```
 
 # Lorem
 
-## Lorem 
+## Lorem
 
 ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.[@bengtssonPerspectivesMortalityForecasting2003]
 
@@ -37,10 +37,9 @@ helloQuarto::decadata
 helloQuarto::print_rob(a = "Send", b = "home!")
 ```
 
+# Duis
 
-# Duis 
-
-## aute 
+## aute
 
 irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.[@rob2018forecasting]
 
